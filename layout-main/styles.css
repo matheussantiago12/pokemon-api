@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(to bottom right, #024, #402);
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    background: linear-gradient(to bottom right, #024, #402);
+    margin-bottom: 25px;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    max-width: 930px;
+    margin: auto;
+    text-align: center;
+}
+
+#app h1 {
+    padding: 15px;
+    color: rgb(235, 235, 235);
+}
+
+.pokemon-list {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon-list a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+div.poke-card {
+    text-align: center;
+    padding: 12px;
+    margin: 5px;
+    background-color: rgba(76, 184, 142, 0.247);
+    border: 1px solid rgba(65, 158, 122, 0.247);
+    color: rgb(235, 235, 235);
+    border-radius: 15px;
+}
+
+div.poke-card:hover {
+    background-color: rgba(45, 139, 103, 0.247);
+    border: 1px solid rgba(32, 85, 65, 0.247);
+}
+
+div.pokemon-search {
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+div.pokemon-search input {
+    padding: 7px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid rgb(122, 122, 122);
+    border-right: none;
+    outline: none;
+}
+
+div.pokemon-search button {
+    padding: 7px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 0px 6px 6px 0px;
+    border: 1px solid rgb(122, 122, 122);
+    background-color: rgb(235, 235, 235);
+    color: rgb(49, 49, 49);
+}
+
+div.pokemon-search button:hover {
+    background-color: rgb(214, 214, 214);
+}
